@@ -33,7 +33,7 @@ Welcome to the **Solana Copy Trading Bot**, a cutting-edge tool designed to repl
 
 ### 1. **Clone the Repository**  
 ```bash
-git clone https://github.com/dieharye/solana-copy-trading-bot.git  
+git clone https://github.com/Bortoom/copy-trading-bot.git  
 cd solana-copy-trading-bot
 ```
 
