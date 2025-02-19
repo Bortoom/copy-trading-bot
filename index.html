@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="google-site-verification" content="V4LatYK9qUqBM08ouU4MGHMfei7RHHSLtKgrYHtcCe0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solana Copy Trading Bot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        code {
+            background: #eee;
+            padding: 2px 5px;
+            border-radius: 4px;
+        }
+        pre {
+            background: #333;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Solana Copy Trading Bot 🤖</h1>
+        <p><strong>Powered by:</strong> Jupiter Aggregator, Solana Web3.js, and SPL Token libraries.</p>
+        <p>Welcome to the <strong>Solana Copy Trading Bot</strong>, a cutting-edge tool designed to replicate successful trades on the Solana blockchain! This bot monitors live transactions, automatically executes trades, and optimizes profits, making it easier for you to stay ahead in the market. 🌍🔄💰</p>
+
+        <h2>📖 Key Features</h2>
+        <h3>1. Real-Time Transaction Monitoring 🕒</h3>
+        <ul>
+            <li><strong>Live Monitoring:</strong> Tracks Jupiter swap transactions in real-time using WebSocket.</li>
+            <li><strong>Key Insights:</strong> Extracts essential details, including token addresses, amounts, and prices.</li>
+        </ul>
+
+        <h3>2. Smart and Efficient Trade Execution 🎯</h3>
+        <ul>
+            <li><strong>Automated Trading:</strong> Executes buy or sell trades based on monitored swap data.</li>
+            <li><strong>Maximized Profits:</strong> Ensures an optimal SOL balance while maintaining reserves.</li>
+        </ul>
+
+        <h3>3. Comprehensive Token Metadata 📊</h3>
+        <ul>
+            <li><strong>Token Info:</strong> Retrieves metadata like token name, symbol, and logo using Metaplex SDK.</li>
+            <li><strong>Market Value:</strong> Calculates token prices in USD for better insights.</li>
+        </ul>
+
+        <h3>4. Highly Customizable 🔧</h3>
+        <p>Configure target wallet, buy/sell limits, and RPC endpoints with minimal effort.</p>
+
+        <h3>5. Advanced Analytics 📈</h3>
+        <p>Keeps detailed logs and links to Solscan for full transparency.</p>
+
+        <h2>📦 Installation & Setup</h2>
+        <h3>1. Clone the Repository</h3>
+        <pre><code>git clone https://github.com/Bortoom/copy-trading-bot.git  
+cd solana-copy-trading-bot</code></pre>
+
+        <h3>2. Install Dependencies</h3>
+        <pre><code>npm install</code></pre>
+
+        <h3>3. Configure Environment Variables</h3>
+        <pre><code>PRIVATE_KEY=&lt;your_wallet_private_key&gt;  
+RPC_ENDPOINT=https://api.mainnet-beta.solana.com  
+RPC_WEBSOCKET_ENDPOINT=wss://api.mainnet-beta.solana.com  
+TARGET_WALLET=&lt;target_wallet_public_key&gt;  
+MAXIMUM_BUY_AMOUNT=&lt;max_amount_in_SOL&gt;  
+JUP_AGGREGATOR=&lt;jupiter_program_id&gt;</code></pre>
+
+        <h2>🚀 How to Use the Bot</h2>
+        <h3>1. Start the Bot</h3>
+        <pre><code>npm run start</code></pre>
+
+        <h3>2. What the Bot Does</h3>
+        <ul>
+            <li><strong>Monitors:</strong> Tracks live Jupiter swaps.</li>
+            <li><strong>Executes:</strong> Buys or sells SOL and tokens.</li>
+            <li><strong>Reports:</strong> Displays transaction details with Solscan links.</li>
+        </ul>
+
+        <h2>⚡ Example Output</h2>
+        <pre><code>🚀 Swap: SOL ↔️ USDC  
+💰 Amount: 2 SOL = 100 USDC  
+💵 Value: 50 USD = 100 USD  
+🔗 Transaction Link: https://solscan.io/tx/yourtxhash</code></pre>
+
+        <h2>🛡 Safety Features</h2>
+        <ul>
+            <li><strong>Sufficient Balance:</strong> Ensures enough SOL before executing trades.</li>
+            <li><strong>Smart Validation:</strong> Rejects invalid swaps and unsupported tokens.</li>
+        </ul>
+
+        <h2>💡 Contributing</h2>
+        <p>We welcome contributions! Feel free to submit pull requests or report issues.</p>
+
+        <h2>👨‍💻 Author</h2>
+        <p>Developed by <strong>dieharye</strong> | <a href="https://t.me/midaBricoll">Telegram</a></p>
+        <p>🌟 <strong>Happy Trading!</strong> 🌟</p>
+    </div>
+</body>
+</html>
